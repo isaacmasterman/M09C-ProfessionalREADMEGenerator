@@ -23,7 +23,13 @@
   To install the necessary dependencies, run the following command: npm install
   
   ## Usage
-  To use this application follow these steps: 1. Clone the repository. 2. Install the dependencies 3. Run the command node index.js 4. Answer the prompts that appear in your terminal. A video deomnstration can be found here: 
+  To use this application follow these steps: 
+  1. Clone the repository.
+  2. Install the dependencies
+  3. Run the command node index.js
+  4. Answer the prompts that appear in your terminal.
+
+  A video demonstration can be found here: [video](https://drive.google.com/file/d/1DtpNG1DWhWUhjZnJ2QzK0guUxm0ryzj6/view?usp=sharing)
   
   ## Credits
   The inquirer npm package was used to prompt the user for input. The fs module was used to write the README file to the disk
