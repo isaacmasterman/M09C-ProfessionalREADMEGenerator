@@ -1,6 +1,6 @@
 # test
   
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   
   ## Description
   test
@@ -30,7 +30,7 @@
   test
   
   ## License
-  This project is covered under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+  This project is covered under the GPLv3 License. For more information, see the [LICENSE](LICENSE) file.
 
   
   ## Features
@@ -41,3 +41,8 @@
   
   ## Tests
   test
+
+  ## Questions
+
+If you have any questions about the project, please feel free to contact me directly at [test@gmail.com](mailto:test@gmail.com). You can also find more of my work at [test](https://github.com/test).
+

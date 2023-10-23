@@ -86,6 +86,8 @@ function generateMarkdown(data) {
   
   ## Tests
   ${data.tests}
+
+  ${generateQuestionsSection(data.github, data.email)}
 `;
 }
 
