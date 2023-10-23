@@ -52,7 +52,6 @@ function generateMarkdown(data) {
   ${data.description}
   
   - What was your motivation? ${data.motivation}
-  - Why did you build this project? ${data.problemSolved}
   - What problem does it solve? ${data.problemSolved}
   - What did you learn? ${data.learnings}
   
@@ -77,9 +76,6 @@ function generateMarkdown(data) {
   
   ## License
   ${renderLicenseSection(data.license)}
-  
-  ## Features
-  ${data.features}
   
   ## Contribute
   ${data.contribute}

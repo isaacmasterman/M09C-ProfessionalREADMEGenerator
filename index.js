@@ -43,28 +43,13 @@ const questions = [
     {
       type: 'input',
       name: 'credits',
-      message: 'List your collaborators, if any, with links to their GitHub profiles:',
-    },
-    {
-      type: 'input',
-      name: 'thirdPartyAssets',
-      message: 'List any third-party assets that require attribution, along with links to their primary web presence:',
-    },
-    {
-      type: 'input',
-      name: 'tutorials',
-      message: 'If you followed tutorials, include links to those here:',
+      message: 'List your collaborators, and any third-party assets that require attribution, along with links to their primary web presence:',
     },
     {
       type: 'list',
       name: 'license',
       message: 'Choose a license for your project:',
       choices: ['MIT', 'GPLv3', 'Apache 2.0', 'BSD 3-Clause', 'None'],
-    },
-    {
-      type: 'input',
-      name: 'features',
-      message: 'List the features of your project:',
     },
     {
       type: 'input',
