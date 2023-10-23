@@ -76,6 +76,32 @@ const questions = [
       name: 'tests',
       message: 'Provide examples on how to run tests for your application:',
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username:',
+        validate: function (input) {
+          if (input.length === 0) {
+            return 'Please enter a valid GitHub username.';
+          }
+          return true;
+        },
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address:',
+        validate: function (input) {
+          // Simple validation for email format
+          const pass = input.match(
+            /^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+          );
+          if (pass) {
+            return true;
+          }
+          return 'Please enter a valid email address.';
+        },
+      },
   ];
 
 // TODO: Create a function to write README file

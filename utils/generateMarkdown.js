@@ -39,16 +39,16 @@ function renderLicenseSection(license) {
     return 'This project is not licensed.';
   }
   return `## License
-This project is licensed under the ${license} license.
-${renderLicenseBadge(license)}
-For more information on the license, [see here](${renderLicenseLink(license)}).
+  This project is covered under the ${license} License. For more information, see the [LICENSE](LICENSE) file.
 `;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  
+  ${renderLicenseBadge(data.license)}
+  
   ## Description
   ${data.description}
   
@@ -65,6 +65,7 @@ function generateMarkdown(data) {
   - [Features](#features)
   - [Contribute](#contribute)
   - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   ${data.installation}
@@ -86,6 +87,13 @@ function generateMarkdown(data) {
   
   ## Tests
   ${data.tests}
+`;
+}
+
+function generateQuestionsSection(github, email) {
+  return `## Questions
+
+If you have any questions about the project, please feel free to contact me directly at [${email}](mailto:${email}). You can also find more of my work at [${github}](https://github.com/${github}).
 `;
 }
 
