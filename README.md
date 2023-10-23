@@ -30,7 +30,6 @@
   test
   
   ## License
-  ## License
   This project is covered under the MIT License. For more information, see the [LICENSE](LICENSE) file.
 
   

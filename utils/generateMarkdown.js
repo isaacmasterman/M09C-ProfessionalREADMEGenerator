@@ -38,8 +38,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     return 'This project is not licensed.';
   }
-  return `## License
-  This project is covered under the ${license} License. For more information, see the [LICENSE](LICENSE) file.
+  return `This project is covered under the ${license} License. For more information, see the [LICENSE](LICENSE) file.
 `;
 }
 
